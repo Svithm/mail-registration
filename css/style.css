@@ -136,6 +136,9 @@ td {
     font-size: 12px;
     color: #3c465c;
 }
+.we-social p {
+    margin-top: 0;
+}
 .social {
     text-align: right;
     padding-right: 24px;
