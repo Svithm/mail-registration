@@ -28,6 +28,12 @@ td {
     text-decoration: none;
     color: #2d3235;
 }
+.border-top {
+    vertical-align: top;
+}
+.hello-misha {
+    background-image: url(../img/style.jpg);
+}
 .hello-misha h1 {
     margin: 0;
     margin-top: 46px;
@@ -91,7 +97,7 @@ td {
 }
 .table-courses h2 {
     margin-top: 44px;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
     margin-left: 30px;
     font-size: 25px;
     color: #393d98;
@@ -101,6 +107,7 @@ td {
 .table-kurs table {
     width: 540px;
     margin-bottom: 20px;
+    border-radius: 3px;
     background-color: #eaeaea;
 }
 .table-kurs td {
@@ -131,9 +138,12 @@ td {
 }
 .we-social p {
     margin-top: 0;
-    padding-right: 6px;
+    margin-bottom: 0;
+    padding-right: 8px;
+    font-size: 12px;
+    color: #3c465c;
 }
 .social {
     text-align: right;
-    padding-right: 6px;
+    padding-right: 8px;
 }
